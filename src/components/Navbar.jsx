@@ -6,7 +6,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
   // Handle CV Download
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/rasvin-portfolio/cv.pdf"; // Include base path
+    link.href = "cv.pdf"; // Include base path
     link.download = "Mohammed_Rasvin_T_Resume.pdf";
     document.body.appendChild(link);
     link.click();
